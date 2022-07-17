@@ -1,0 +1,708 @@
+body {
+    background-image: url("../imagenes/deepin-theme-1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon{
+    width: 35px;
+}
+
+.cuenta{
+    font-size: 14px;
+}
+
+.barraLateral{
+    padding: 20px;
+    font-size: 16px;
+}
+
+.logo{
+    filter: invert(100%) !important;
+}
+
+.navDesign {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(50px);
+    box-shadow: 4px 4px 7px black;
+}
+
+.dropdown-item_Hover:hover{
+    background-color:#d198d0;
+    color: white;
+}
+
+.carruselHover:hover{
+    box-shadow: 5px 5px 15px black;
+}
+
+.dropdown-menu{
+    background-color: rgba(220, 220, 220, 0.9) !important;
+    backdrop-filter: blur(100px) !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 7px black;
+    top: 100%;
+    left: 0;
+    width: 100%
+    perspective: 1000px;
+    z-index: -1;
+}
+
+.submenu{
+    right: 0 !important;
+    left: auto !important;
+}
+
+.dropdown-menu{
+    display: none;
+    color: white;
+    opacity: 0;
+    &:hover;
+}
+
+.dropdown:hover .dropdown_menu--animated{
+    display: block;
+}
+
+.dropdown_menu--animated{
+    display: none;
+    opacity: 1;
+}
+
+.dropdown_menu-7{
+    animation: rotateMenu 400ms ease-in-out forwards;
+    transform-origin: top center;
+}
+    
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg)
+    }
+    70% {
+        transform: rotateX(20deg) 
+    }
+    100% {
+        transform: rotateX(0deg) 
+    }
+}
+
+.centeredNav {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lis {
+    list-style: none;
+    padding: 10px;
+    display: inline !important;
+}
+
+.lisHover:hover{
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: black;
+    margin: 6px;
+}
+
+.active {
+    background-color: grey !important;
+    border-radius: 15px !important;
+    color: white !important;
+}
+
+.activeDrop {
+    background-color: white !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navhov:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px !important;
+}
+
+.imghov:hover {
+    filter: invert(100%);
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 20px !important;
+    box-shadow: 10px 10px 50px black !important;
+}
+
+.imgs{
+    height: auto;
+    margin: 10px !important;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.closing:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.cardEdit {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(9px);
+}
+
+.cardEditBlack {
+    background-color: rgba(192, 192, 192, 1) !important;
+    backdrop-filter: blur(9px);
+}
+
+.cardHoverBlack:hover {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    box-shadow: 5px 5px 15px black;
+    color: white;
+}
+
+
+.cardHover:hover {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 5px 5px 15px black;
+}
+
+.circle {
+    border-radius: 50px !important;
+    background-color: rgb(0, 68, 255) !important;
+    color: white !important;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.fluentContaint {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(50px) !important;
+    border-radius: 20px;
+}
+
+.loginDialogCont {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(50px) !important;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 15px black !important;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fluentcontaintDark {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: 20px;
+}
+
+.containtBackgrounds {
+    background-color: white !important;
+    border-radius: 30px !important;
+}
+
+.cardEdit2 {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(50px) !important;
+    border-radius: 20px;
+}
+
+.thead{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(8px);
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 5px !important;
+    backdrop-filter: blur(8px);
+    text-align: center !important;
+    text
+}
+
+.table table thead {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.tr {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    backdrop-filter: blur(8px);
+}
+
+.toast-type-notice {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 35px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 80%;
+    box-shadow: 5px 5px 50px black !important;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.input{
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    /*height: 32px;*/
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,.6);
+    /*height: 36px;*/
+    outline: none !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+.input:focus{
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    /*height: 32px;*/
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,.6);
+    /*height: 36px;*/
+    outline: none !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+.form-control {
+    display: block;
+    outline: none !important;
+    border-radius: 8px !important;
+    width: auto;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+.form-control:focus {
+    display: block;
+    border-radius: 8px !important;
+    outline: none !important;
+    width: auto;
+    background-image: none;
+}
+select {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(6px) !important;
+    border: none;
+    padding: 8px;
+}
+
+select:focus{
+    outline: none !important;
+    border: 0 !important;
+}
+
+td a {
+    min-width: 2px;
+}
+
+.btns {
+    border-radius: 15px !important;
+}
+
+
+.imgPerfil {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+}
+
+.btns-delete {
+    border-radius: 10px !important;
+    color: rgba(233, 0, 0, 0.596) !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.btns-save {
+    border-radius: 10px !important;
+    color: rgba(13, 78, 0, 0.596) !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.btns-normal {
+    border-radius: 10px !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.btns-hover:hover {
+    background-color: rgb(196, 196, 196) !important;
+}
+
+.btns-menuLateral-hover:hover {
+    background-color: rgba(96, 30, 255, 0.1) !important;
+    color: rgb(96, 30, 255);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btns-Lateral-active{
+    background-color: rgba(96, 30, 255, 0.1) !important;
+    color: rgb(96, 30, 255);
+    border-style: solid !important;
+    border: 5px;
+    border-left: rgb(96, 30, 255) !important;
+    border-top: rgb(96, 30, 255) !important;
+    border-bottom: rgb(96, 30, 255) !important;    
+}
+
+.contentScroll {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.contentScroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contentScroll::-webkit-scrollbar-thumb {
+    background: rgba(212, 211, 211, 0.5);
+    border-radius: 25px;
+}
+
+.contentScroll::-webkit-scrollbar-thumb:active {
+    background: rgba(134, 134, 134, 0.6);
+    width: 10px !important;
+}
+
+.contentScroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(133, 133, 133, 0.6);
+    border-radius: 25px;
+    width: 10px !important;
+}
+
+.contentScroll::-webkit-scrollbar-track {
+    border-radius: 25px;
+}
+
+.pModal {
+    font-size: 17px;
+    color: rgb(107, 107, 107) !important;
+}
+
+.inputFocus:focus {
+    background-color: rgb(255, 255, 255, 0.3) !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    border: 1 !important;
+    border-color: blueviolet;
+}
+
+.links:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px) !important;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px black !important;
+    padding: 10px;
+    color: black !important;
+}
+
+.btnLink {
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(187, 187, 187, 0.7);
+    backdrop-filter: blur(30px);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: auto;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: .875em;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: var(--bs-font-monospace);
+    font-size: 1em;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}
+
+code {
+    font-size: .875em;
+    color: #d63384;
+    word-wrap: break-word;
+}
+
+.chroma .language-bash::before,
+.chroma .language-sh::before {
+    color: #009;
+    content: "$ ";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.btn-RedondoLogin {
+    border-radius: 50% !important;
+    background-color: royalblue;
+}
+
+.btn-RedondoSave {
+    border-radius: 50% !important;
+    background-color: darkgreen;
+}
+
+
+.footer {
+    position: absolute;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    min-height: 28px;
+}
+
+.seccion-final {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.footerNode {
+    margin: 0;
+    float: right;
+}
+
+.text-secondary {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+}
+
+.footer-content.footer-item {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 28px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.input-container{
+    display: flex;
+}
+
+input[type=”file”]#mi-archivo {
+     width: 0.1px;
+     height: 0.1px;
+     opacity: 0;
+     overflow: hidden;
+     position: absolute;
+     z-index: -1;
+}
+
+label[for="mi-archivo"] {
+     font-size: 14px;
+     font-weight: 600;
+     color: black;
+     background-color: rgba(255, 255, 255, 0.7) !important;
+     backdrop-filter: blur(6px) !important;
+     border-radius: 10px;
+     display: inline-block;
+     transition: all .5s;
+     cursor: pointer;
+     padding: 15px 40px !important;
+     font-size: 14px;
+     width: fit-content;
+     text-align: center;
+}
+
+label[for="mi-archivo"]:hover {
+     font-size: 14px;
+     font-weight: 600;
+     color: black;
+     background-color: rgba(196, 196, 196, 0.2) !important;
+     box-shadow: 3px 3px 5px black !important;
+     backdrop-filter: blur(6px) !important;
+     border-radius: 10px;
+     display: inline-block;
+     transition: all .5s;
+     cursor: pointer;
+     font-size: 15px;
+     padding: 15px 40px !important;
+     width: fit-content;
+     text-align: center;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.hs-main-header {
+    padding: 60px 0 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.hs-main-header:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background: url(https://www.deepin.org/wp-content/themes/hashone/images/overlay.png);
+}
+
+.hs-main-header>.hs-container {
+    position: relative;
+    z-index: 9;
+}
+
+.hs-main-title {
+    margin: 0 0 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.hs-site-title {
+    font-weight: bold;
+    margin: 0 0 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.hs-site-title a {
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+}
+
+.hs-white.fadeInDown .hs-site-title a {
+    color: #333;
+}
+
+.hs-breadcrumbs{
+    text-align: center;
+    font-size: 13px;
+    color: #EEE;
+    margin-bottom: 10px;
+}
+
+.tooltip.bs-tooltip-top .arrow::before {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(50px) !important;
+    color: black;
+}
+
+.tooltip.bs-tooltip-top .tooltip-inner {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(50px) !important;
+    color: black;
+}
